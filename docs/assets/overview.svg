@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="580" viewBox="0 0 1200 580" role="img" aria-labelledby="title desc">
+  <title id="title">冀遇东方功能示意</title><desc id="desc">米白与绛红配色，展示今日安排、本地课表和校园工具。所有内容均为虚构示例。</desc>
+  <defs><style>text{font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif}.ink{fill:#302a28}.muted{fill:#706763}.red{fill:#8d2f38}.label{font-size:16px}.head{font-size:25px;font-weight:650}.small{font-size:14px}</style></defs>
+  <rect width="1200" height="580" rx="24" fill="#faf7f2"/>
+  <path d="M45 46v52" stroke="#8d2f38" stroke-width="4"/>
+  <text x="66" y="72" class="ink" font-size="30" font-weight="700">冀遇东方</text>
+  <text x="66" y="100" class="muted label">LOCAL FIRST · A CAMPUS COMPANION</text>
+  <text x="1152" y="78" class="muted small" text-anchor="end">功能示意 / 虚构数据</text>
+  <g transform="translate(44 137)">
+    <rect width="350" height="354" rx="22" fill="#fffcf9" stroke="#eee5de"/>
+    <text x="25" y="40" class="red label">01 / 今日安排</text>
+    <text x="25" y="85" class="ink head">今天，去哪上课</text>
+    <rect x="22" y="111" width="306" height="151" rx="16" fill="#faf7f2" stroke="#eee5de"/>
+    <text x="42" y="144" class="red label">08:10 — 09:50</text>
+    <text x="42" y="185" class="ink" font-size="22" font-weight="600">示例课程 · 程序设计</text>
+    <text x="42" y="222" class="muted label">教学楼 A101 · 虚构教室</text>
+    <path d="M25 294h300" stroke="#eee5de"/><text x="25" y="325" class="muted label">左右滑动 / 展开时间线</text>
+  </g>
+  <g transform="translate(425 137)">
+    <rect width="350" height="354" rx="22" fill="#fffcf9" stroke="#eee5de"/>
+    <text x="25" y="40" class="red label">02 / 本地课表</text><text x="25" y="85" class="ink head">一份 Excel，一周清楚</text>
+    <rect x="23" y="112" width="304" height="151" rx="12" fill="#faf7f2"/>
+    <g fill="#f3e6e5"><rect x="36" y="132" width="47" height="106" rx="7"/><rect x="94" y="132" width="47" height="57" rx="7"/><rect x="152" y="183" width="47" height="55" rx="7"/><rect x="210" y="132" width="47" height="106" rx="7"/><rect x="268" y="183" width="47" height="55" rx="7"/></g>
+    <g class="red small" text-anchor="middle"><text x="59" y="158">周一</text><text x="117" y="158">周二</text><text x="175" y="211">周三</text><text x="233" y="158">周四</text><text x="291" y="211">周五</text></g>
+    <path d="M25 294h300" stroke="#eee5de"/><text x="25" y="325" class="muted label">本机解析 / 预览确认 / 离线查看</text>
+  </g>
+  <g transform="translate(806 137)">
+    <rect width="350" height="354" rx="22" fill="#fffcf9" stroke="#eee5de"/>
+    <text x="25" y="40" class="red label">03 / 校园工具</text><text x="25" y="85" class="ink head">常用的，放在顺手处</text>
+    <g class="ink label"><text x="29" y="141">成绩留档</text><text x="193" y="141">学校校历</text><text x="29" y="185">取件码收纳</text><text x="193" y="185">服务入口</text></g>
+    <rect x="25" y="213" width="300" height="49" rx="12" fill="#395c4b"/><path d="m77 236 7 7 13-14" fill="none" stroke="#fff" stroke-width="2.5"/><text x="177" y="244" fill="#fff" class="label" text-anchor="middle">链接已复制</text>
+    <path d="M25 294h300" stroke="#eee5de"/><text x="25" y="325" class="muted label">原服务自行登录 / 不代预约</text>
+  </g>
+  <text x="45" y="542" class="muted label">学生自制 · 非官方 · 本地数据优先</text><text x="1152" y="542" class="red label" text-anchor="end">uni-app + Vue 3 + TypeScript</text>
+</svg>

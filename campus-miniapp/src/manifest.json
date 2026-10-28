@@ -1,0 +1,31 @@
+{
+  "name": "冀遇东方",
+  "appid": "",
+  "description": "河北东方学院非官方校园助手",
+  "versionName": "0.1.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "uniStatistics": {
+    "enable": false
+  },
+  "mp-weixin": {
+    "appid": "touristappid",
+    "setting": {
+      "urlCheck": true,
+      "es6": true,
+      "minified": true,
+      "ignoreDevUnusedFiles": false,
+      "compileHotReLoad": false
+    },
+    "optimization": {
+      "subPackages": true
+    },
+    "usingComponents": true
+  },
+  "h5": {
+    "title": "冀遇东方 · 课表",
+    "router": {
+      "mode": "hash"
+    }
+  }
+}

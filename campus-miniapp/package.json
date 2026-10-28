@@ -1,0 +1,35 @@
+{
+  "name": "ji-meets-oriental-miniapp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev:h5": "uni --host 127.0.0.1",
+    "dev:mp-weixin": "uni -p mp-weixin",
+    "build:h5": "uni build",
+    "build:mp-weixin": "uni build -p mp-weixin",
+    "typecheck": "vue-tsc --noEmit",
+    "test": "vitest run",
+    "fixtures": "node scripts/create-fixtures.mjs"
+  },
+  "dependencies": {
+    "@dcloudio/uni-app": "3.0.0-5030320261023001",
+    "@dcloudio/uni-components": "3.0.0-5030320261023001",
+    "@dcloudio/uni-h5": "3.0.0-5030320261023001",
+    "@dcloudio/uni-mp-weixin": "3.0.0-5030320261023001",
+    "vue": "3.4.21",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
+  },
+  "devDependencies": {
+    "@cloudbase/js-sdk": "3.10.3",
+    "@cloudbase/wx-cloud-client-sdk": "1.8.11",
+    "@dcloudio/types": "^3.4.0",
+    "@dcloudio/vite-plugin-uni": "3.0.0-5030320261023001",
+    "@types/wechat-miniprogram": "^3.4.0",
+    "typescript": "5.6.3",
+    "vite": "5.2.8",
+    "vitest": "2.1.9",
+    "vue-tsc": "2.2.12"
+  },
+  "license": "MIT"
+}

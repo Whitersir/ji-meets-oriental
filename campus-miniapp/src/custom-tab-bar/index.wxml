@@ -1,0 +1,9 @@
+<view class="glass-dock {{dragging ? 'is-dragging' : ''}}" role="tablist" aria-label="主导航">
+  <view class="glass-track" bindtouchstart="onTouchStart" catchtouchmove="onTouchMove" bindtouchend="onTouchEnd" bindtouchcancel="onTouchCancel">
+    <view class="glass-lens" style="transform: translateX({{position * 100}}%);" aria-hidden="true"></view>
+    <button wx:for="{{tabs}}" wx:key="url" class="dock-tab {{preview === index ? 'is-selected' : ''}}" data-index="{{index}}" bindtap="onTap" hover-class="dock-pressed" aria-role="tab" aria-label="{{item.label}}" aria-selected="{{selected === index}}">
+      <image class="dock-icon" src="/static/icons/{{item.icon}}{{preview === index ? '' : '-muted'}}.png" aria-hidden="true" />
+      <text class="dock-label">{{item.label}}</text>
+    </button>
+  </view>
+</view>

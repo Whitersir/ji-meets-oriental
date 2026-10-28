@@ -1,0 +1,14 @@
+{
+  "appid": "touristappid",
+  "projectname": "冀遇东方",
+  "compileType": "miniprogram",
+  "miniprogramRoot": "campus-miniapp/dist/build/mp-weixin/",
+  "cloudfunctionRoot": "campus-server/cloudfunctions/",
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "minified": true,
+    "ignoreDevUnusedFiles": false,
+    "compileHotReLoad": false
+  }
+}

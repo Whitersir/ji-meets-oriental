@@ -1,0 +1,34 @@
+name: Bug 反馈
+description: 提供可复现的问题
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: 请勿上传真实课表、成绩、账号密码、票据或完整日志。导入问题优先用自造样例。
+  - type: input
+    id: environment
+    attributes:
+      label: 运行环境
+      description: 微信真机 / 开发者工具 / H5，以及系统和版本
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望与实际结果
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 脱敏截图或最小样例
+  - type: input
+    id: revision
+    attributes:
+      label: 版本号或 commit（如知道）

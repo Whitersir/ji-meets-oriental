@@ -1,0 +1,33 @@
+name: CI
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: campus-miniapp/package-lock.json
+      - run: npm ci
+        working-directory: campus-miniapp
+      - run: npm run typecheck
+        working-directory: campus-miniapp
+      - run: npm test
+        working-directory: campus-miniapp
+      - run: npm run build:h5
+        working-directory: campus-miniapp
+      - run: npm run build:mp-weixin
+        working-directory: campus-miniapp
+      - run: node --test campus-server/cloudfunctions/campusBackend/tests/*.test.cjs
+      - run: node --test campus-server/cloudfunctions/campusLogin/tests/*.test.cjs
+      - run: node --check campus-server/src/index.js && node --check campus-server/src/qiangzhi.js && node --check campus-server/src/store.js

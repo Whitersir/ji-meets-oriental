@@ -1,0 +1,29 @@
+{
+  "pages": [
+    { "path": "pages/home/index", "style": { "navigationBarTitleText": "" } },
+    { "path": "pages/schedule/index", "style": { "navigationBarTitleText": "我的课表" } },
+    { "path": "pages/campus/index", "style": { "navigationBarTitleText": "校园服务" } },
+    { "path": "pages/profile/index", "style": { "navigationBarTitleText": "我的" } },
+    { "path": "pages/pickups/index", "style": { "navigationBarTitleText": "取件码" } },
+    { "path": "pages/calendar/index", "style": { "navigationBarTitleText": "学校校历" } },
+    { "path": "pages/water/index", "style": { "navigationBarTitleText": "宿舍用水" } },
+    { "path": "pages/takeout/index", "style": { "navigationBarTitleText": "校园外卖" } },
+    { "path": "pages/library/index", "style": { "navigationBarTitleText": "图书馆座位预约" } },
+    { "path": "pages/feedback/index", "style": { "navigationBarTitleText": "给作者留言" } },
+    { "path": "pages/admin/index", "style": { "navigationBarTitleText": "作者工作台" } }
+  ],
+  "subPackages": [{ "root": "pages-import", "pages": [{ "path": "index", "style": { "navigationBarTitleText": "导入课表" } }, { "path": "grades", "style": { "navigationBarTitleText": "成绩查询" } }] }],
+  "tabBar": {
+    // #ifdef MP-WEIXIN
+    "custom": true,
+    // #endif
+    "color": "#786C69", "selectedColor": "#8D2F38", "backgroundColor": "#FFFCF9", "borderStyle": "white",
+    "list": [
+      { "pagePath": "pages/home/index", "text": "首页", "iconPath": "static/icons/home-muted.png", "selectedIconPath": "static/icons/home.png" },
+      { "pagePath": "pages/schedule/index", "text": "课表", "iconPath": "static/icons/calendar-muted.png", "selectedIconPath": "static/icons/calendar.png" },
+      { "pagePath": "pages/campus/index", "text": "校园", "iconPath": "static/icons/campus-muted.png", "selectedIconPath": "static/icons/campus.png" },
+      { "pagePath": "pages/profile/index", "text": "我的", "iconPath": "static/icons/user-muted.png", "selectedIconPath": "static/icons/user.png" }
+    ]
+  },
+  "globalStyle": { "navigationBarTextStyle": "black", "navigationBarBackgroundColor": "#FAF7F2", "backgroundColor": "#FAF7F2" }
+}
