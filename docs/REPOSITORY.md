@@ -6,6 +6,7 @@
 - Topics：`uni-app`、`vue3`、`typescript`、`wechat-miniprogram`、`campus`、`timetable`、`excel`、`student-project`
 - 许可证：MIT
 - 默认分支：`main`
+- 当前源码版本：`v0.1.0`，开发预览；固定版本包见 [Releases](https://github.com/Whitersir/ji-meets-oriental/releases/tag/v0.1.0)。
 
 不要声称学校认证、全国通用、云端已经接通或个人小程序内直接预约。没有实际部署地址时不填写示例 Homepage，没有发布包时不创建虚假下载链接或正式 Release。
 

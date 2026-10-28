@@ -13,6 +13,10 @@
 
 [快速开始](#快速开始) · [功能与边界](#功能与边界) · [开发指南](docs/DEVELOPMENT.md) · [部署说明](docs/DEPLOYMENT.md) · [参与贡献](CONTRIBUTING.md)
 
+[![下载 v0.1.0 开发版源码](https://img.shields.io/badge/下载-v0.1.0_开发版源码-8d2f38?style=for-the-badge)](https://github.com/Whitersir/ji-meets-oriental/releases/download/v0.1.0/ji-meets-oriental-v0.1.0-source.zip)
+
+[版本说明与全部下载](https://github.com/Whitersir/ji-meets-oriental/releases/tag/v0.1.0)
+
 </div>
 
 ![冀遇东方功能示意](docs/assets/overview.svg)
@@ -43,6 +47,12 @@
 考试安排、空教室等未实现的入口显示待开放。没有自动抢座、自动签到、代付费或绕过学校认证的功能。
 
 ## 快速开始
+
+### 下载版本包
+
+到 [Releases / v0.1.0](https://github.com/Whitersir/ji-meets-oriental/releases/tag/v0.1.0)，在 **Assets** 中下载 `ji-meets-oriental-v0.1.0-source.zip`。这是固定版本的源码包，包含前端、可选服务端、文档和锁文件；可用同页 `SHA256SUMS.txt` 校验完整性。
+
+解压后按下面步骤安装依赖、运行。该版本面向开发者，不包含 APK、EXE 或可直接扫码使用的小程序体验码。普通同学使用微信小程序仍需运营者完成微信发布或提供体验资格。
 
 ### 准备环境
 
